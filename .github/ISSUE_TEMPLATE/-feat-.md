@@ -1,5 +1,5 @@
 ---
-name: "[FEAT]"
+name: "FEAT"
 about: Suggest an idea for this project
 title: ''
 labels: ''
