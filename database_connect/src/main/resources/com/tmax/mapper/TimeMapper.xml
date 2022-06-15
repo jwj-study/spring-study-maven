@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tmax.mapper.TimeMapper">
+
+	
+	<!-- 인터페이스에서 이미 select 문 입력하여 불필요 -->
+	
+	<!-- 
+	<select id="getTime" resultType="string"> 
+		select sysdate from dual
+	</select>
+	 -->
+	 
+	<select id="getTime2" resultType="string"> 
+		select now()
+	</select>
+
+</mapper>
