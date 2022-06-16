@@ -5,7 +5,7 @@
 - 회원가입
 - 로그인      
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - jwt를 통해 권한 인증     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - 쿠키를 통해 json 값 전달          
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - 쿠키를 통해 토큰 값 전달          
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - 로그인 했을 시 권한을 획득      : 권한(사용자, 메니저, 관리자) 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
 - 게시판 (생성, 삭제, 수정)
