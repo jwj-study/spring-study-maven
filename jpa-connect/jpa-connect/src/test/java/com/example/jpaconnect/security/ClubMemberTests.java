@@ -23,10 +23,9 @@ public class ClubMemberTests {
     @Autowired
     private ClubMemberRepository repository;
 
-    @Bean
-	public PasswordEncoder passwordEncoder() {
-		return new BCryptPasswordEncoder();
-	}
+    @Autowired
+	private PasswordEncoder passwordEncoder;
+
 
 //    빈 등록을 안했기 때문에 위의 코드를 사용해야 함
 //    @Autowired
@@ -46,7 +45,7 @@ public class ClubMemberTests {
                     .email("user"+i+"@zerock.org")
                     .name("사용자"+i)
                     .fromSocial(false)
-                    .password(  passwordEncoder().encode("1111") )
+                    .password(  passwordEncoder.encode("1111") )
                     .build();
 
             //default role
